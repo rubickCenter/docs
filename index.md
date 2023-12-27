@@ -14,7 +14,7 @@ hero:
       text: 功能介绍
       link: /guide/usage.md
   image:
-    src: https://picx.zhimg.com/80/v2-6a6024ea4e0b0962583f1f0ecdee1f83_720w.png
+    src: https://pic1.zhimg.com/80/v2-9574ec8e1f47c177429f476eee966b49_720w.png
     alt: Rubick
 
 features:

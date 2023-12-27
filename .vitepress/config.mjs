@@ -6,11 +6,11 @@ export default defineConfig({
   title: "rubick 文档",
   description: "rubick 官方文档",
   head: [
-    ['link', { rel: 'icon', type: 'image/svg+xml', href: 'https://picx.zhimg.com/80/v2-3d6a948772386c47f311a3d64d9fe70a_720w.png' }],
-    ['link', { rel: 'icon', type: 'image/png', href: 'https://picx.zhimg.com/80/v2-3d6a948772386c47f311a3d64d9fe70a_720w.png' }],
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: 'https://picx.zhimg.com/80/v2-96ec85fa4127686cffc525cf3d14d914_720w.png' }],
+    ['link', { rel: 'icon', type: 'image/png', href: 'https://picx.zhimg.com/80/v2-96ec85fa4127686cffc525cf3d14d914_720w.png' }],
   ],
   themeConfig: {
-    logo: { src: 'https://picx.zhimg.com/80/v2-3d6a948772386c47f311a3d64d9fe70a_720w.png', width: 24, height: 24 },
+    logo: { src: 'https://picx.zhimg.com/80/v2-96ec85fa4127686cffc525cf3d14d914_720w.png', width: 24, height: 24 },
   
     // https://vitepress.dev/reference/default-theme-config
     nav: [
