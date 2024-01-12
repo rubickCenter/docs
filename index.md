@@ -32,3 +32,15 @@ features:
   details: rubick 代码完全开源，你可以基于 rubick 开源代码二次定制化开发自己需要的能力。
 ---
 
+<div align="center" style="margin-top: 100px;">
+<div style="font-size: 26px; margin-bottom: 20px; color: var(--vp-button-brand-bg)">
+<a target="_blank" href="https://juejin.cn/book/7302990019642261567">《Electron 应用开发实践指南》</a>
+</div>
+<div style="margin-bottom: 10px;line-height: 24px;font-size: 14px;font-weight: 500;color: var(--vp-c-text-2);">
+如果你对 Rubick 实现原理感兴趣，或者向学习 Electron 的实战技能，那么这将是一本非常适合你的课程。
+<p>这个课程是由 Rubick 作者亲自编写，PicGo、Electron-Egg 作者作序，质量非常高！</p>
+</div>
+<a target="_blank" href="https://juejin.cn/book/7302990019642261567">
+<img src="https://picx.zhimg.com/80/v2-e441a6104905936792149de3c8543be6_720w.png" />
+</a>
+</div>

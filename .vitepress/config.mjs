@@ -15,6 +15,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '官网', link: 'https://rubick.vip' },
+      { text: 'rubick 源码教程', link: 'https://juejin.cn/book/7302990019642261567' },
       { text: '使用说明', link: '/guide/index.md' }
     ],
 
@@ -38,7 +39,7 @@ export default defineConfig({
       {
         text: 'rubick 源码介绍篇',
         items: [
-          { text: '源码介绍', link: '/core/index.md' },
+          { text: 'rubick 插件化实现原理', link: '/core/index.md' },
         ]
       },
     ],
