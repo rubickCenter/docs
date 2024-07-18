@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: '/docs/',
+  base: '/',
   title: "rubick 文档",
   description: "rubick 官方文档",
   head: [
