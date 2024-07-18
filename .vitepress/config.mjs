@@ -46,6 +46,10 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/rubickCenter/rubick' }
-    ]
+    ],
+
+    search: {
+      provider: 'local'
+    }
   }
 })
