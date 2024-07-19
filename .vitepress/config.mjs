@@ -1,10 +1,8 @@
 import { defineConfig } from 'vitepress'
 
-console.log(process.env)
-
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: '/',
+  base: typeof process.env?.GITHUB_SERVER_URL === 'string' ? '/' : '/docs/',
   title: "rubick 文档",
   description: "rubick 官方文档",
   head: [
@@ -13,7 +11,7 @@ export default defineConfig({
   ],
   themeConfig: {
     logo: { src: 'https://picx.zhimg.com/80/v2-96ec85fa4127686cffc525cf3d14d914_720w.png', width: 24, height: 24 },
-  
+
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '官网', link: 'https://rubick.vip' },
