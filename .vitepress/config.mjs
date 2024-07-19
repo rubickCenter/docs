@@ -16,7 +16,7 @@ export default defineConfig({
 
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: '官网', link: 'https://rubick.vip' },
+      { text: '官网', link: 'https://home-3av.pages.dev/' },
       { text: 'rubick 源码教程', link: 'https://juejin.cn/book/7302990019642261567' },
       { text: '使用说明', link: '/guide/index.md' }
     ],
