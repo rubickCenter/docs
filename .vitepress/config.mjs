@@ -1,8 +1,10 @@
 import { defineConfig } from 'vitepress'
 
+const base = typeof process.env?.GITHUB_SERVER_URL === 'string' ? '/docs/' : '/'
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: typeof process.env?.GITHUB_SERVER_URL === 'string' ? '/' : '/docs/',
+  base,
   title: "rubick 文档",
   description: "rubick 官方文档",
   head: [
