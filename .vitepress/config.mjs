@@ -1,5 +1,7 @@
 import { defineConfig } from 'vitepress'
 
+console.log(process.env)
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: '/',
